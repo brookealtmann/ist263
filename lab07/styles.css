@@ -4,3 +4,6 @@ body {
 }
 a {color:#BE9B7B;}
 nav {background-color:#FFF4E6;}
+nav a {
+    color: #854442;
+}
