@@ -12,4 +12,8 @@ nav a {
     color: #854442;
     text-decoration: none;
 }
-nav a:hover {color: #102f679e;}
+nav a:hover {
+    background-color: #102f679e;}
+.evenrow {
+    background-color: #FFF4E6;
+}
