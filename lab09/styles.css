@@ -3,18 +3,46 @@ body {
     background-color:#FFF4E6;
 }
 a {color:#BE9B7B;}
-nav {
-    background-color:#c3a47c;
+nav {background-color:#c3a47c;}
+nav a {color:#FFF4E6}
+nav a:hover {background-color: #102f679e;}
+nav { 
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
 nav a {
     color: #854442;
     text-decoration: none;
 }
-nav a:hover {
-    background-color: #102f679e;}
-.evenrow {
-    background-color: #d5e9f2;
+.evenrow {background-color: #d5e9f2;}
+
+.column3, .column4 {flex-basis: 50%;}
+
+.column1, .column2 {float: left;}
+.column1 {padding-right: 30px;}
+
+.row1, .row2 {
+    display: flex;
 }
+
+.row1, .row2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 1em;
+    margin: 20px;
+}
+
+.productflex {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 1em;
+    margin: 20px;
+}
+
+.producttable, .skillsimage {flex-basis: 50%;}
+
+.producttable {margin: 0 auto;}
+
+.skillsimage {text-align: center;}
 
