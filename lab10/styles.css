@@ -8,12 +8,20 @@ nav a {color:#FFF4E6}
 nav a:hover {background-color: #102f679e;}
 nav { 
     padding: 10px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;  
 }
 nav a {
     color: #854442;
     text-decoration: none;
 }
+
+@media screen and (max-width: 760px){
+    nav a {
+        display: block;
+        width: 100%;
+    }
+}
+
 .evenrow {background-color: #d5e9f2;}
 
 .column3, .column4 {
@@ -54,6 +62,5 @@ iframe {
 .producttable {margin: 0 auto;}
 
 .skillsimage {text-align: center;}
-
 
 
