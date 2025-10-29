@@ -20,6 +20,11 @@ nav a {
     flex-basis: 50%;
 }
 
+iframe {
+    width: 100%;
+    max-width: 100%;
+}
+
 .column1, .column2 {float: left;}
 .column1 {padding-right: 30px;}
 
