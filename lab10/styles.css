@@ -19,10 +19,10 @@ nav a {
     nav a {
         display: block;
         width: 100%;
+        padding: 10px;
     }
     nav span {
         display: none;
-        padding: 10px;
     }
 }
 
