@@ -20,6 +20,9 @@ nav a {
         display: block;
         width: 100%;
     }
+    nav span {
+        display: none;
+    }
 }
 
 .evenrow {background-color: #d5e9f2;}
