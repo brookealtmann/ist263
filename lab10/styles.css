@@ -25,8 +25,9 @@ nav a {
 
 .row1, .row2 {
     display: flex;
-    flex-wrap: wrap;
 }
+
+.row2 {flex-wrap: wrap;}
 
 .row1, .row2 {
     background-color: white;
@@ -48,4 +49,6 @@ nav a {
 .producttable {margin: 0 auto;}
 
 .skillsimage {text-align: center;}
+
+
 
