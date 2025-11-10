@@ -16,7 +16,11 @@
         }
 
         function changeImage () {
-            document.getElementById("teamsimage").setAttribute("src", "./ist263/images/serum.png");
+            document.getElementById("teamsimage").setAttribute("src", "../ist263/images/serum.jpg");
+        }
+
+        function bluey () {
+            document.getElementById("p2").style.color ="#0000FF";
         }
      </script>
 
@@ -31,7 +35,7 @@
     <p onclick="wrongAnswer();" id="wrong">True</p>
     <p onclick="rightAnswer();" id="correct">False</p>
 
-    <img src="../ist263/images/makeup.jpg">
+    <img src="../ist263/images/makeup.jpg" id="teamsimage" onclick="changeImage();">
 
 </body>
 
