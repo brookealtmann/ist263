@@ -14,6 +14,10 @@
         function wrongAnswer () {
             document.getElementById("wrong").innerHTML="<span style='color:red;'>True is wrong answer!</span>"
         }
+
+        function changeImage () {
+            document.getElementById("teamsimage").setAttribute("src", "makeup.jpg");
+        }
      </script>
 
 </head>
@@ -27,7 +31,7 @@
     <p onclick="wrongAnswer();" id="wrong">True</p>
     <p onclick="rightAnswer();" id="correct">False</p>
 
-    <img src="images/serum.png">
+    <img src="../ist263/images/makeup.jpg">
 
 </body>
 
