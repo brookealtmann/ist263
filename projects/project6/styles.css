@@ -57,6 +57,14 @@ img {
     border-radius: 6px;
 }
 
+.influencer-img {
+    width: 350px;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 10px;
+}
+
 .features {
     display: flex;
     flex-wrap: wrap;
@@ -110,10 +118,3 @@ footer p {
     }
 }
 
-.influencer-img {
-    width: 350px;
-    height: auto;
-    border-radius: 6px;
-    display: block;
-    margin-bottom: 10px;
-}
