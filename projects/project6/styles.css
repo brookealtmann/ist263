@@ -84,6 +84,15 @@ footer p {
 }
 
 @media (max-width: 700px) {
+    article {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    article img {
+        margin: 0 auto;
+        width: 80%;
+    }
 
     nav {
         display: flex;
