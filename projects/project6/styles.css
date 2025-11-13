@@ -114,6 +114,10 @@ footer p {
         margin: 3px 0;
     }
 
+    nav span {
+        display: none;
+    }
+
     main {
         padding: 15px 10px 30px;
     }
