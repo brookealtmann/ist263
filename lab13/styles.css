@@ -5,7 +5,9 @@ body {
 a {color:#BE9B7B;}
 nav {background-color:#c3a47c;}
 nav a {color:#FFF4E6}
-nav a:hover {background-color: #102f679e;}
+nav a:hover {
+    color: #8A5E46;
+}
 nav { 
     padding: 10px;
     margin-bottom: 30px;  
