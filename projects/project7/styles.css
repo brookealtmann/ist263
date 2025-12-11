@@ -130,3 +130,9 @@ footer p {
     }
 }
 
+.sep {
+  color: #FFF4E6;  
+  font-weight: bold;
+  margin: 0 6px;
+}
+
