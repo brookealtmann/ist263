@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
-a {color:#BE9B7B;}
+a {color: #854442;}  
+
 
 a:hover {text-decoration: underline;}
 
@@ -27,13 +28,13 @@ h1 {
 }
 
 nav {
-    background-color:#c3a47c;
+    background-color: #854442;
     padding: 10px;
     margin-bottom: 30px;
 }
 
 nav a {
-    color: #854442;
+    color: #FFF4E6;
     text-decoration: none;
     margin: 0 8px;
     padding: 4px 8px;
@@ -41,8 +42,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #102f679e;
-    color: #ffffff
+    background-color: #102f67;
+    color: #fff4e6
 }
 
 main {
